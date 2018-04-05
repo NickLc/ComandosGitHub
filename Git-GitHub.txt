@@ -1,0 +1,30 @@
+	+-------------------------------------------------------+
+	|		Comandos Para GitHub			|
+	+-------------------------------------------------------+
+	
+
+Para bajar un proyecto de GitHub.
+En la gitbash nos ubicamos en la carpeta que queremos guardas.
++---------------------------------------+
+|    $git clone	URLdelProyecto  	|
++---------------------------------------+
+->Baja el proyecto.
+
+Proyecto Local: son los archivos que se encuentran en nuestra PC.
+Proyecto remoto: son los archivos que se encuentran en GitHub (la nuve)
+
+<<<Como subir mi proyecto a GitHub>>>
+Copiamos el link del proyecto(repositorio) de GitHub no el de la pagina.
+Nos ubicamos en el proyeto en la gitbash
+
++-------------------------------------------------------+
+|    $git remote add origin LinkDelRepositorioHitGub 	|
++-------------------------------------------------------+
+->Vincula nuestro proyecto local, con nuestro proyecto remoto.
+->Solo se esta conectando, pero no aparecera todavia en tu GitHub
+
++---------------------------------------+
+|    $git push origin NombreRama 	|
++---------------------------------------+
+->Pasa lo de nuestra computadora a GitHub
+->Generalmente se sube la rama Master

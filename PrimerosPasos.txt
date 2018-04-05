@@ -1,0 +1,54 @@
+Vamos al GitBash en windows o a la terminal en linux.
+Nos ubicamos en la carpeta que queremos que gestione GIT
+
++---------------------+
+|	$git init     |
++---------------------+						
+->Marcar el inicio de nustro proyecto, aquí le decimos a git que empiece a monitorear todos nuestros proyectos.
+->Debemos utilizarlo solo una vez para cada proyecto.
++---------------------+
+|	$git status   |
++---------------------+						
+->Nos dice el estado de nuestro proyecto
+
++---------------------+
+|	$git add      |
++---------------------+
+->Decimos que archivos estan listos para el siguiente paso  (Creacion de un commit).
+->Una variante es $git add -A para AGREGAR TODO LO QUE ESTA EN LA CARPETA.
+
++-------------------------------------+
+|	$git commit -m "Mensaje"      |
++-------------------------------------+
+->Sirve para guardar los cambios, es como guardar un estado de tiempo de nuestro proyecto.
+->El mensaje debe ser especifico, "que es lo que hiciste,que cambio realizaste"
+
+
+Cuando modificas tus codigos, el git te mostrara los codigos que modificaste agregas los codigos con git add y despues SIEMPRE crear un commit para guardar un nuevo espacio de tiempo.
+
++-------------------------+
+|	$git log          |
++-------------------------+
+->Muestra todos los commit, todos los espacios de tiempo.
+
++---------------------------------------------------------+
+|	$git checkout  CodigoDelCommitQueQuieresIr        |
++---------------------------------------------------------+
+->Nos permite cambiar entre commit, podemos viajar en el tiempo de git.
+->Se puede ver como estaba tu codigo antes.
+->Una variante es $git checkout master para movernos al ultimo.
+
++----------------------------------------------------------------+
+|	$git reset --soft CodigoCommitQueQuieresBorrar           |
++----------------------------------------------------------------+
+->Nos permiter borrar los commit, pero si tu codigo lo tienes abierto el reset no toca al codigo.
+
++----------------------------------------------------------------+
+|	$git reset --hard CodigoCommitQueQuieresBorrar           |
++----------------------------------------------------------------+
+->Este comando borrar los commit y el codigo, borra todo.
+
+
+
+						
+

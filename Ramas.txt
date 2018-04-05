@@ -1,0 +1,43 @@
+HEAD: Es el commit que nos encontramos actualmente.
+					Head
+Linea Temporal  ->    o   o   o   o   o   O   o
+
+RAMA: es una linea de tiempo en nuestro proyecto sirve para experimentar, y este no afecta a nuestro proyecto.
+
+RAMA MASTER: es donde comenzamos a trabajar, es la rama principal y estable de nuestro proyecto.
+
++-----------------------+
+|	$git branch     |
++-----------------------+	
+->Comando para mostrar las ramas
+
++-----------------------------------+
+|	$git branch NombreRama      |
++-----------------------------------+	
+->Comando para crear una rama, crear una nueva linea temporal.
+->Se crea a partir del HEAD
+
+Linea Temporal   ->    o   o   o   o   o   O   o   o
+Linea Temporal_2 ->                        O   o   o
+
++-------------------------------------+
+|	$git checkout NombreRama      |
++-------------------------------------+	
+->Sirve para movernos entre las ramas.
+
++--------------------------------------+
+|	$git branch -d NombreRama      |
++--------------------------------------+	
+->Para la eliminacion de una Rama.
+
+Como fusionar dos ramas:
+Nos ubicamos en la rama que va absorber al atra rama.
+Generalmente la rama principal absorbe a las demas ramas
+
++----------------------------------+
+|	$git merge NombreRama      |
++----------------------------------+	
+->Comando para fusionar dos ramas la rama NombreRama es absorvida por la rama que esta ubicada actualmente.
+
+Linea Temporal   ->    o   o   o   o   o   O   o   o  0   o  o 
+Linea Temporal_2 ->                        O   o   o 
