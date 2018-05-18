@@ -16,15 +16,26 @@ Proyecto remoto: son los archivos que se encuentran en GitHub (la nuve)
 <<<Como subir mi proyecto a GitHub>>>
 Copiamos el link del proyecto(repositorio) de GitHub no el de la pagina.
 Nos ubicamos en el proyeto en la gitbash
-
 +-------------------------------------------------------+
 |    $git remote add origin LinkDelRepositorioHitGub 	|
 +-------------------------------------------------------+
 ->Vincula nuestro proyecto local, con nuestro proyecto remoto.
 ->Solo se esta conectando, pero no aparecera todavia en tu GitHub
 
-+---------------------------------------+
-|    $git push origin NombreRama 	|
-+---------------------------------------+
+Para visualizar si esta conectado 
++-------------------------------------------------------+
+|    $git remote -v 		 							|
++-------------------------------------------------------+
+
+Para remover el vinculo entre el repositorio remoto y local
+
++-------------------------------------------------------+
+|    $git remote remove origin							|
++-------------------------------------------------------+
+
+->Nos ubicamos en la carpeta del archivo/s que queremos subir
 ->Pasa lo de nuestra computadora a GitHub
 ->Generalmente se sube la rama Master
++---------------------------------------+
+|    $git push origin NombreRama 		|
++---------------------------------------+

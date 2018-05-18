@@ -50,5 +50,27 @@ Cuando modificas tus codigos, el git te mostrara los codigos que modificaste agr
 
 
 
+Para eliminar una repo en git o dejar que monitoree nuestra repo
+Debemos eliminar los repositorios de git   ".git"
+Nos ubicamos en la carpeta 
++--------------------+
+|	$rm -rf .git     |
++--------------------+
+
+Si aun quedan repositorios de git  utilizar
++---------------------+
+|	$rm -rf .git*     |
++---------------------+
+
+Luego de la misma carpeta ex repositorio, para ver si .git carpeta oculta sigue ahí:
++---------------------+
+|	$ ls -lah	      |
++---------------------+
+
+
+
+
+
+
 						
 

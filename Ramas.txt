@@ -7,12 +7,12 @@ RAMA: es una linea de tiempo en nuestro proyecto sirve para experimentar, y este
 RAMA MASTER: es donde comenzamos a trabajar, es la rama principal y estable de nuestro proyecto.
 
 +-----------------------+
-|	$git branch     |
+|	$git branch     	|
 +-----------------------+	
 ->Comando para mostrar las ramas
 
 +-----------------------------------+
-|	$git branch NombreRama      |
+|	$git branch NombreRama      	|
 +-----------------------------------+	
 ->Comando para crear una rama, crear una nueva linea temporal.
 ->Se crea a partir del HEAD
@@ -21,12 +21,12 @@ Linea Temporal   ->    o   o   o   o   o   O   o   o
 Linea Temporal_2 ->                        O   o   o
 
 +-------------------------------------+
-|	$git checkout NombreRama      |
+|	$git checkout NombreRama      	  |
 +-------------------------------------+	
 ->Sirve para movernos entre las ramas.
 
 +--------------------------------------+
-|	$git branch -d NombreRama      |
+|	$git branch -d NombreRama     	   |
 +--------------------------------------+	
 ->Para la eliminacion de una Rama.
 
@@ -35,7 +35,7 @@ Nos ubicamos en la rama que va absorber al atra rama.
 Generalmente la rama principal absorbe a las demas ramas
 
 +----------------------------------+
-|	$git merge NombreRama      |
+|	$git merge NombreRama      	   |
 +----------------------------------+	
 ->Comando para fusionar dos ramas la rama NombreRama es absorvida por la rama que esta ubicada actualmente.
 
